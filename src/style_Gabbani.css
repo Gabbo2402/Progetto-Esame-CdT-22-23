@@ -1,0 +1,216 @@
+body {
+	background-color: #ffe0c7; 
+
+}
+.sidenav {
+  height: 100%;
+  width: 0; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #111; 
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border-bottom: 1px solid black;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.dropdown:last-child {
+  top: 30%;
+}
+.dropdown {
+  position: relative;
+  display: block;
+}
+.dropbtn {
+  background-color: red;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.show {display:block;}
+.buttons{
+	display:block;
+	width: 100%;
+	font-size: 20px;
+}
+.Menubtn{
+	color: #ffffff;
+	background-color: #FF0000;
+	font-size: 15px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	width: 5%;
+	border-radius: 16px;
+}
+#cancellature { 
+	background-color: #Be5549; 
+	color: Black; 
+	text-shadow: 0px 1px 7px #000000; 
+}
+#aggiunte { 
+	background-color: #d892d2; 
+	color:Black;
+	text-shadow: 0px 1px 7px #000000;
+}
+#normalizzazioni { 
+	background-color: #659f58; 
+	color: Black; 
+	text-shadow: 0px 1px 7px #000000; 
+}
+#abbreviazioni { 
+	background-color: #a16dcb; 
+	color: Black; 
+	text-shadow: 0px 1px 7px #000000;
+}
+#correzioni { 
+	background-color: #cf9050; 
+	color:Black;
+	text-shadow: 0px 1px 7px #000000;
+}
+#nomi { 
+	background-color: #abdbe3; 
+	color: Black; 
+	text-shadow: 0px 1px 7px #000000;
+}
+#luoghi { 
+	background-color: #FFC0C7;
+	color:Black;
+	text-shadow: 0px 1px 7px #000000;
+}
+#termini { 
+	background-color: #Ffff97; 
+	color: Black; 
+	text-shadow: 0px 1px 7px #000000;
+}
+#incertezze { background-color: #00FF00;
+	color: Black;
+	text-shadow: 0px 1px 7px #000000; 
+}
+#Titolo {
+    text-align: Center; 
+    flex: 1; 
+    color: #000000;
+}
+#Descrizioni {
+  background-color: #c8a2c8;
+  margin: 2%;
+  padding: 2% 2%;
+  display: flex;
+}
+#Diario{
+	display: inline-block;
+	border: 5px dotted red;
+	padding: 1rem 1rem;
+	vertical-align: middle;
+	width: 50%;
+	background-color: #ffffff;
+}
+#edizioneFisica{
+	display: inline-block;
+	border: 5px dotted red;
+	padding: 1rem 1rem;
+	vertical-align: middle;
+	width: 50%;
+	background-color: #ffffff;
+}
+.titoloPag {
+    margin-bottom: 2%;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 37px;
+    font-weight: 250;
+    text-shadow:0px 0px 13px #000000;
+}
+.codifica {
+    display: flex;
+    margin-bottom: 15px; 
+    padding: 5%; 
+    margin-right: 11%;
+    margin-left: 11%;
+	margin-top: 20px;
+    box-shadow: 9px 13px 15px rgba(0, 0, 0, 0.1); 
+    border: 4px dashed black; 
+}
+.codifica img {
+    
+    width: 79%;
+    height: 76%; 
+    margin-left: 7%; 
+    margin-top: 12%;
+}
+div .trascrizione{
+ 
+  flex: 1; 
+  padding-left: 10%; 
+  margin-right: 5px;
+
+}
+.trascrizione{
+    display: inline-block;
+    margin-left: 0%;
+    margin-right: 5%;
+    margin-top: 2px;
+    font-size: 17px;
+    
+}
+.infoback h2 {
+	font-size: 27px;
+    color: #fff1ef;
+    background-color: #c8a2c8;
+    text-align: center;
+    padding: 1%;
+    margin: 4%;
+    margin-top: 4%;
+
+}
+.infoback h3 {
+	font-size: 20px;
+	color: #82433b;
+
+}
+.infoback ul {
+	list-style-type: square;
+	padding-left: 7%;
+	margin-bottom: 5%;
+	text-align: justify;
+	
+}
+.liste ul {
+
+	padding-left: 7%;
+	padding-right: 8%;
+}
+#about {
+  background-color: #c8a2c8;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  margin-top: 1%;
+}
