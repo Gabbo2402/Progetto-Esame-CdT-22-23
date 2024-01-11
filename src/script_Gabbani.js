@@ -27,7 +27,7 @@ $(document).ready(function(){
         clickCountNorm++;
         if (clickCountNorm % 2 !== 0) {
             $('.reg').css({
-                    'border': '3px solid #659f58',
+                    'border': '3px dashed #659f58',
                     'cursor': 'pointer' });
         } else {
             $('.reg').css('border', 'none');
@@ -40,7 +40,7 @@ $(document).ready(function(){
     $('#abbreviazioni').on('click', function() {
         clickCountAbbr++;
         if (clickCountAbbr % 2 !== 0) {
-            $('.abbr').css({'border': '3px solid #a16dcb',
+            $('.abbr').css({'border': '3px dashed #a16dcb',
                             'cursor': 'pointer' });
         } else {
             $('.abbr').css('border', 'none');
@@ -109,7 +109,7 @@ $(document).ready(function(){
     });
 });
 	function openMenu(){
-		document.getElementById("Sidenav").style.width = "250px";
+		document.getElementById("Sidenav").style.width = "20%";
 	};
 	function closeMenu(){
 		document.getElementById("Sidenav").style.width = "0";
